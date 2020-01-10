@@ -6,6 +6,8 @@
 */
 
 body {
+  font-family: 'Poppins', sans-serif;
+
   /* Default font family and font color */
 }
 
@@ -63,3 +65,72 @@ a:hover {
 * Components
 * ----------
 */
+
+
+.entete {
+
+background-color: #fcce00;
+color: #ffffff;
+text-align: center;
+font-weight: 900;
+padding: 20px 0;
+padding-top: 0;
+padding-right: 0;
+padding-bottom: 80px;
+padding-left: 0;
+margin-bottom: 64px;
+}
+
+.entete_titre {
+margin: 0;
+font-size: 88px;
+text-transform: uppercase;
+color: 231f20;
+
+}
+
+
+.entete_sous-titre {
+margin: 0;
+font-size: 38px;
+
+
+}
+
+.corps {
+font-weight: 900;
+text-align: center;
+
+}
+
+.corps_titre {
+margin: 0;
+font-size: 40px;
+font-weight: bold;
+padding-top: 64px;
+padding-bottom: 64px;
+
+}
+
+.corps_sous_titre{
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+
+.corps_texte{
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: justify;
+  padding-top: 32px;
+  padding-bottom: 42px;
+}
+
+.image1{
+  background-color: #fcce00;
+
+
+}
