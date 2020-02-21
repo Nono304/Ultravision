@@ -116,7 +116,7 @@ font-size: 38px;
 
 .colonne1 {
 background-color: #ffffff;
-color: ##231f20;
+color: #231f20;
 
 display: flex;
 justify-content: space-around;
@@ -127,7 +127,7 @@ align-items: center;
 .block_texte1 {
 text-align: justify;
 background-color: #ffffff;
-color: ##231f20;
+color: #231f20;
 margin: 32px;
 padding: 48px;
 
@@ -137,7 +137,10 @@ flex-grow: 1;
 }
 
 .block_image1 {
-  background-color: #fcce00;
+  background: linear-gradient(to bottom, #fcce00, #fcce00 50%, rgba(252, 206, 0, .81) 45%, rgba(252, 206, 0, .81) 45%, rgba(252, 206, 0, .61) 65%, rgba(252, 206, 0, .61) 65%,
+   rgba(252, 206, 0, .61) 70%, rgba(252, 206, 0, .41) 70%, rgba(252, 206, 0, .41) 80%,
+   rgba(252, 206, 0, .2) 80%, rgba(252, 206, 0, .2) 90%, rgba(252, 206, 0, .2) 90%,  rgba(252, 206, 0, .1) 45%, rgba(252, 206, 0, .1) 45%);
+
   mix-blend-mode: darken;
   
   flex-basis: 0;
@@ -147,7 +150,6 @@ flex-grow: 1;
 
 .image1 {
 
-background-color: #fcce00;
 mix-blend-mode: darken;
 
 }
@@ -172,7 +174,7 @@ border-radius: 15px;
 
   .colonne2 {
     background-color: #ffffff;
-    color: ##231f20;
+    color: #231f20;
     
     display: flex;
     justify-content: space-around;
@@ -183,7 +185,7 @@ border-radius: 15px;
     .block_texte2 {
     text-align: justify;
     background-color: #ffffff;
-    color: ##231f20;
+    color: #231f20;
     margin: 32px;
     padding: 48px;
     
