@@ -157,7 +157,6 @@ text-align: justify;
 background-color: #ffffff;
 color: #231f20;
 margin: 32px;
-padding: 48px;
 
 flex-basis: 0;
 flex-grow: 1;
@@ -189,17 +188,56 @@ font-family: Poppins-Bold;
 color: #fcce00;
 text-align: center;
 border: solid 4px;
-margin-top: 10px;
-margin-left: 36px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 36px;
+padding-right: 36px;
 border-radius: 15px;
 
   }
 
   .rectangle1 {
-
+text-align: right;
   }
-  
 
+
+  .rectangle2 {
+    text-align: right;
+      }
+
+
+  .learn_more2 {
+    font-size: 20px;
+    font-family: Poppins-Bold;
+    color: #ff6b00;
+    text-align: center;
+    border: solid 4px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-radius: 15px;
+    
+      }
+
+      .rectangle3 {
+        text-align: left;
+          }
+    
+    
+      .learn_more3 {
+        font-size: 20px;
+        font-family: Poppins-Bold;
+        color: #ffffff;
+        text-align: center;
+        border: solid 4px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 36px;
+        padding-right: 36px;
+        border-radius: 15px;
+        
+          }
 
   .colonne2 {
     background-color: #ffffff;
@@ -231,12 +269,62 @@ border-radius: 15px;
       background-color: #ffffff;
       color: #231f20;
       margin: 32px;
-      padding: 48px;
         
       flex-basis: 0;
       flex-grow: 1;
         
         }
+
+        .colonne3 {
+          background: linear-gradient(to bottom, #e02020, #e02020 50%, rgba(224, 32, 32, .81) 45%, rgba(224, 32, 32, .81) 45%, rgba(224, 32, 32, .61) 65%, rgba(224, 32, 32, .61) 65%,
+      rgba(224, 32, 32, .61) 70%, rgba(224, 32, 32, .41) 70%, rgba(224, 32, 32, .41) 80%,
+      rgba(224, 32, 32, .2) 80%, rgba(224, 32, 32, .2) 90%, rgba(224, 32, 32, .2) 90%,  rgba(224, 32, 32, .1) 45%, rgba(224, 32, 32, .1) 45%);
+      
+          color: #ffffff;
+          
+          display: flex;
+         
+          
+          }
+
+          .block_image3 {
+            background: linear-gradient(to bottom, #e02020, #e02020 50%, rgba(224, 32, 32, .81) 45%, rgba(224, 32, 32, .81) 45%, rgba(224, 32, 32, .61) 65%, rgba(224, 32, 32, .61) 65%,
+            rgba(224, 32, 32, .61) 70%, rgba(224, 32, 32, .41) 70%, rgba(224, 32, 32, .41) 80%,
+            rgba(224, 32, 32, .2) 80%, rgba(224, 32, 32, .2) 90%, rgba(224, 32, 32, .2) 90%,  rgba(224, 32, 32, .1) 45%, rgba(224, 32, 32, .1) 45%);
+            
+            mix-blend-mode: darken;
+
+          }  
+
+          .block_texte3 {
+            text-align: left;
+            margin: 32px;
+              
+            flex-basis: 0;
+            flex-grow: 1;
+              
+              }
+
+
+              .block_texte4 {
+                text-align: left;
+                margin: 32px;
+                  
+                flex-basis: 0;
+                flex-grow: 1;
+                  
+                  }
+
+              .block_image4 {
+                background: linear-gradient(to bottom, #b620e0, #b620e0 50%, rgba(182, 32, 224, .81) 45%, rgba(182, 32, 224, .81) 45%, rgba(182, 32, 224, .61) 65%, rgba(182, 32, 224, .61) 65%,
+                rgba(182, 32, 224, .61) 70%, rgba(182, 32, 224, .41) 70%, rgba(182, 32, 224, .41) 80%,
+                rgba(182, 32, 224, .2) 80%, rgba(182, 32, 224, .2) 90%, rgba(182, 32, 224, .2) 90%,  rgba(182, 32, 224, .1) 45%, rgba(182, 32, 224, .1) 45%);
+                
+                mix-blend-mode: darken;
+    
+              } 
+
+
 
 .corps {
 font-weight: 900;
@@ -271,25 +359,6 @@ padding-bottom: 64px;
   padding-bottom: 42px;
 }
 
-}
-
-.corps_sous_titre2{
-  margin: 0;
-  font-size: 24px;
-  font-weight: bold;
-  padding-top: 64px;
-  padding-bottom: 32px;
-  text-align: center;
-}
-
-.corps_texte2{
-  margin: 0;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: justify;
-  padding-top: 32px;
-  padding-bottom: 42px;
-}
 
 .image2{
   background-color: #ff6b00;
@@ -318,26 +387,23 @@ padding-bottom: 64px;
   }
 
   .titre_blanc1{
-    margin: 0;
-    font-size: 64px;
-    font-weight: bold;
-    padding-top: 32px;
-    padding-bottom: 82px;
-    text-align: center;
-    color: #231f20;
-    font-family: Poppins;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: Poppins-Black;
+    text-align: left;
   }
 
   .texte_blanc1{
     margin: 0;
     font-size: 24px;
     font-weight: normal;
-    text-align: justify;
     padding-top: 32px;
     padding-bottom: 32px;
-    color: #231f20;
+    color: #ffffff;
     font-family: Poppins-Regular;
+    text-align: left;
   }
+
 
   .image4{
     background-color: #b620e0;
@@ -370,4 +436,52 @@ padding-bottom: 64px;
     text-align: center;
     color: #231f20;
     font-family: Poppins;
+  }
+
+  .produit1 {
+text-align: center;
+font-size: 40px;
+padding-top: 64px;
+padding-bottom: 64px;
+  }
+
+  .rectangle_gris {
+background-color: #231f20;
+margin: auto;
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 760px) 
+
+{ 
+
+.colonne1 { 
+
+Display: block; 
+
+} 
+
+.colonne2 { 
+
+  Display: block; 
+  
+  } 
+
+  .colonne3 { 
+
+    Display: block; 
+    
+    } 
   }
